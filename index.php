@@ -3,43 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Situaciones</title>
+    <title>Contigo no sin ti</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="situaciones.js" defer></script>
 </head>
 <body>
 
-<div id></div>
-<div id="botonAnterior"></div>
-<div id="botonSiguiente2"  ></div>
 
 <div id="cabecero"></div>
 
-<div id="imagenEscena" >
-    
-    <div id="botonSiguiente"></div>
-    <!--<div id="texto"></div>-->
+
+<div id="MenuInicio">
+    <div id="presentacion" class="menuInicio">Presentacion</div>
+    <div id="profesional" class="menuInicio">Material para el profesional</div>
+    <div id="unDia" class="menuInicio"><a href="diaCentro.php">Un dia en el centro</a></div>
+    <div id="familia" class="menuInicio"><a href="trabajoFamilias.php">Trabajo con la familia</a></div>
+    <div id="agradecimientos" class="menuInicio">Agradecimientos</div>
 
 </div>
-<div id="situaciones">
 
-
-</div>
-<?php
-    // Incluye el archivo contarCarpetas.php
-    include 'contarCarpetas.php';
-    
-    // Define la ruta del directorio
-    $rutaDirectorio = './elementos'; // Cambia la ruta según tu directorio
-    
-    // Llama a la función contarCarpetas
-    $numeroDeCarpetas = contarCarpetas($rutaDirectorio);
-    
-   // echo "<h1>Número de carpetas: $numeroDeCarpetas</h1>";
-    ?>
-    <script>
-        var numeroDeCarpetasJS = <?php echo $numeroDeCarpetas; ?>;
-        agregarSituacion(numeroDeCarpetasJS);
-    </script>
 </body>
 </html>
