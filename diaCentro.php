@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Un dia en el centro</title>
     <link rel="stylesheet" href="estilo.css">
-    <script src="contigoSinTi.js" defer></script>
+    
 </head>
 <body>
 
-<div id></div>
-<div id="botonAnterior" class="botones"></div>
+
+<div id="botonVolver" class="botones">1</div>
 <div id="botonSiguiente2"  class="botones" ></div>
 
 <div id="cabeceroSinTi"></div>
@@ -33,8 +33,12 @@
    // echo "<h1>Número de carpetas: $numeroDeCarpetas</h1>";
     ?>
     <script>
-        var numeroDeCarpetasJS = <?php echo $numeroDeCarpetas; ?>;
-        agregarSituacion(numeroDeCarpetasJS);
+    const volverMenu = document.getElementById('botonVolver');
+    var numeroDeCarpetasJS = <?php echo $numeroDeCarpetas; ?>;
+
+    volverMenu.addEventListener('click', function(){
+    window.location.href= 'index.php';
+    });
     </script>
 </body>
 </html>

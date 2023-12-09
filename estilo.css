@@ -36,6 +36,12 @@
   background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
   background-position: center; /* Centra la imagen dentro del contenedor */
 }
+#familia{
+  background-image: url('elementos/materiales/Trabajo_con_la_familia.png'); 
+  background-size: 100%, 100%; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+}
 #imagenEscena{
   position: absolute;
   max-width: 80%; /* Puedes ajustar este valor según tus necesidades */
@@ -67,9 +73,9 @@
   bottom: 2.5vh;
   right: 45vw;
   }
-#botonAnterior{
+#botonVolver{
   position: absolute;
-  background-image: url('elementos/materiales/botonAnterior.png');
+  background-image: url('elementos/materiales/botonVolver.png');
   background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
   background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
   background-position: center; /* Centra la imagen dentro del contenedor */
