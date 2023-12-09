@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contigo no sin ti</title>
     <link rel="stylesheet" href="estilo.css">
-    <script src="situaciones.js" defer></script>
+    <script src="contigoSinTi.js" defer></script>
 </head>
 <body>
 
 
-<div id="cabecero"></div>
+<div id="cabeceroSinTi"></div>
 
 
 <div id="MenuInicio">
-    <div id="presentacion" class="menuInicio">Presentacion</div>
-    <div id="profesional" class="menuInicio">Material para el profesional</div>
-    <div id="unDia" class="menuInicio"><a href="diaCentro.php">Un dia en el centro</a></div>
-    <div id="familia" class="menuInicio"><a href="trabajoFamilias.php">Trabajo con la familia</a></div>
-    <div id="agradecimientos" class="menuInicio">Agradecimientos</div>
+    <div id="presentacion" class="botones">Presentacion</div>
+    <div id="profesional" class="botones">Material para el profesional</div>
+    <div id="unDia" class="botones">6</div>
+    <div id="familia" class="botones">5</div>
+    <div id="agradecimientos" class="botones">Agradecimientos</div>
 
 </div>
 

@@ -18,31 +18,33 @@
   padding: 20px; /* Agrega espacio alrededor del contenido del div */
   background-color: rgb(169, 169, 255);
   box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  
 
 }
-.menuInicio{
-  width: calc(70% - 10px); /* Ancho del contenedor hijo (restar 10px para la separación) */
+.botones{
+  
+  width: 20vw; /* Ancho del contenedor hijo (restar 10px para la separación) */
   height: 5vh; /* Altura del contenedor hijo */
-  background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
+  background-color: blanchedalmond;
   margin-bottom: 5px; /* Separación entre los contenedores hijos */
- font-size: larger;
+  font-size: larger;
   transition: transform 0.2s, background-image 0.2s;
 }
-#imagenEscena{
-    position: absolute;
-    /*background-image: url('elementos/materiales/materiales-app_ex_0041_pcreditos.png');*/
-    background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  	background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+#unDia{
+  background-image: url('elementos/materiales/un_dia_en_el_centro.png'); 
+  background-size: 100%, 100%; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
   background-position: center; /* Centra la imagen dentro del contenedor */
+}
+#imagenEscena{
+  position: absolute;
   max-width: 80%; /* Puedes ajustar este valor según tus necesidades */
   max-height: 80vh; /* Puedes ajustar este valor según tus necesidades */
   margin: auto; /* Centra el div horizontalmente */
   width: 80vw; /* Permite ajustar automáticamente el ancho */
-  height: 80vh; /* Permite ajustar automáticamente la altura */
+  height: 67vh; /* Permite ajustar automáticamente la altura */
   bottom: 30vh;
-  top: 30vh;
+  top: 38vh;
   padding: 20px; /* Agrega espacio alrededor del contenido del div */
   box-sizing: border-box; /* Incluye padding y border en el ancho total */
   background-color: rgb(169, 169, 255);
@@ -57,14 +59,13 @@
 #botonSiguiente2{
   position: absolute;
   background-image: url('elementos/materiales/botonSiguiente.png');
-    background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  	background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
   background-position: center; /* Centra la imagen dentro del contenedor */
-    height: 5vh;
-    width: 15vw;
-  
-    bottom: 2.5vh;
-    right: 45vw;
+  height: 5vh;
+  width: 15vw;
+  bottom: 2.5vh;
+  right: 45vw;
   }
 #botonAnterior{
   position: absolute;
@@ -72,11 +73,10 @@
   background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
   background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
   background-position: center; /* Centra la imagen dentro del contenedor */
-    height: 5vh;
-    width: 15vw;
-    
-    bottom: 2.5vh;
-    left: 20vw;
+  height: 5vh;
+  width: 15vw;
+  bottom: 2.5vh;
+  left: 20vw;
   }
 #botonSiguiente{
 position: absolute;
@@ -86,20 +86,21 @@ position: absolute;
   bottom: 2.5vh;
   right: 4.5vw;
 }
-#cabecero{
-    position: absolute;
-   background-image: url('elementos/materiales/materiales-app_ex_0042_cabecera.png');
-    background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  	background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+#cabeceroSinTi{
+  position: absolute;
+  background-image: url('elementos/materiales/cabecera_sin_ti.png');
+  background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
   background-position: center; /* Centra la imagen dentro del contenedor */
   max-width: 100%; /* Puedes ajustar este valor según tus necesidades */
   max-height: 80vh; /* Puedes ajustar este valor según tus necesidades */
   margin: auto; /* Centra el div horizontalmente */
   width: 100vw; /* Permite ajustar automáticamente el ancho */
-  height: 10vh; /* Permite ajustar automáticamente la altura */
+  height: 20vh; /* Permite ajustar automáticamente la altura */
   top: 0px;
   padding: 20px; /* Agrega espacio alrededor del contenido del div */
   box-sizing: border-box; /* Incluye padding y border en el ancho total */
+ 
 }
 .situacion{
   width: calc(70% - 10px); /* Ancho del contenedor hijo (restar 10px para la separación) */
@@ -112,8 +113,8 @@ position: absolute;
   transition: transform 0.2s, background-image 0.2s;
         
 }
-/* Escalado de boton o mouse over
-/*.situacion:hover {
-  transform: scale(1.2); /* Hace que el div sea un poco más grande al pasar el ratón por encima 
+/* Escalado de boton o mouse over*/
+.botones:hover {
+  transform: scale(1.05); /* Hace que el div sea un poco más grande al pasar el ratón por encima */
  
-}*/
+}

@@ -5,22 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Un dia en el centro</title>
     <link rel="stylesheet" href="estilo.css">
-    <script src="situaciones.js" defer></script>
+    <script src="contigoSinTi.js" defer></script>
 </head>
 <body>
 
 <div id></div>
-<div id="botonAnterior"></div>
-<div id="botonSiguiente2"  ></div>
+<div id="botonAnterior" class="botones"></div>
+<div id="botonSiguiente2"  class="botones" ></div>
 
-<div id="cabecero"></div>
+<div id="cabeceroSinTi"></div>
 
-<div id="imagenEscena" >
-    
-    <div id="botonSiguiente"></div>
-    <!--<div id="texto"></div>-->
-
-</div>
+<div id="imagenEscena" ></div>
 <div id="situaciones">
 
 
