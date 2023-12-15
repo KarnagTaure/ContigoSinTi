@@ -1,126 +1,104 @@
-#situaciones{
-  position: absolute;  
+#situaciones {
+  position: absolute;
   right: 0px;
-  width: 25vw; /* Permite ajustar automáticamente el ancho */
-  height: auto; /* Permite ajustar automáticamente la altura */
-  top: 10vh;
-  padding: 20px; /* Agrega espacio alrededor del contenido del div */
-  box-sizing: border-box; /* Incluye padding y border en el ancho total */
+  width: 25vw;  /* Permite ajustar automáticamente el ancho */
+  height: auto;  /* Permite ajustar automáticamente la altura */
+  top: 20vh;
+  padding: 20px;  /* Agrega espacio alrededor del contenido del div */
+  box-sizing: border-box;  /* Incluye padding y border en el ancho total */
 
 }
-#MenuInicio{
-  position: absolute;  
-  right: 40%;
-  width: 25vw; /* Permite ajustar automáticamente el ancho */
-  height: auto; /* Permite ajustar automáticamente la altura */
-  top: 25vh;
-  margin: auto;
-  padding: 20px; /* Agrega espacio alrededor del contenido del div */
-  background-color: rgb(169, 169, 255);
-  box-sizing: border-box; /* Incluye padding y border en el ancho total */
-  
+
+#cabeceroSinTi {
+  position: absolute;
+  background-image: url('elementos/materiales/cabecera_sin_ti.png');
+  background-size: 100% 100%;  /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat;  /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-position: center;  /* Centra la imagen dentro del contenedor */
+  max-width: 100%;  /* Puedes ajustar este valor según tus necesidades */
+  max-height: 80vh;  /* Puedes ajustar este valor según tus necesidades */
+  margin: auto;  /* Centra el div horizontalmente */
+  width: 100vw;  /* Permite ajustar automáticamente el ancho */
+  height: 20vh;  /* Permite ajustar automáticamente la altura */
+  top: 0px;
+  padding: 20px;  /* Agrega espacio alrededor del contenido del div */
+  box-sizing: border-box;  /* Incluye padding y border en el ancho total */
 
 }
-.botones{
-  
-  width: 20vw; /* Ancho del contenedor hijo (restar 10px para la separación) */
-  height: 5vh; /* Altura del contenedor hijo */
-  background-color: blanchedalmond;
-  margin-bottom: 5px; /* Separación entre los contenedores hijos */
+
+.botones {
+
+  width: 20vw;  /* Ancho del contenedor hijo (restar 10px para la separación) */
+  height: 5vh;  /* Altura del contenedor hijo */
+  background-size: contain;  /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat;  /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-position: center;  /* Centra la imagen dentro del contenedor */
+  margin-bottom: 5px;  /* Separación entre los contenedores hijos */
   font-size: larger;
   transition: transform 0.2s, background-image 0.2s;
 }
-#unDia{
-  background-image: url('elementos/materiales/un_dia_en_el_centro.png'); 
-  background-size: 100%, 100%; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-}
-#familia{
-  background-image: url('elementos/materiales/Trabajo_con_la_familia.png'); 
-  background-size: 100%, 100%; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-}
-#imagenEscena{
-  position: absolute;
-  max-width: 80%; /* Puedes ajustar este valor según tus necesidades */
-  max-height: 80vh; /* Puedes ajustar este valor según tus necesidades */
-  margin: auto; /* Centra el div horizontalmente */
-  width: 80vw; /* Permite ajustar automáticamente el ancho */
-  height: 67vh; /* Permite ajustar automáticamente la altura */
-  bottom: 30vh;
-  top: 38vh;
-  padding: 20px; /* Agrega espacio alrededor del contenido del div */
-  box-sizing: border-box; /* Incluye padding y border en el ancho total */
-  background-color: rgb(169, 169, 255);
-}
-#texto{
-  position: absolute;
-  height: 5vh;
-  width: 20vw;
-  background-color: red;
-  
-}
-#botonSiguiente2{
-  position: absolute;
-  background-image: url('elementos/materiales/botonSiguiente.png');
-  background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  height: 5vh;
-  width: 15vw;
-  bottom: 2.5vh;
-  right: 45vw;
-  }
-#botonVolver{
-  position: absolute;
-  background-image: url('elementos/materiales/botonVolver.png');
-  background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  height: 5vh;
-  width: 15vw;
-  bottom: 2.5vh;
-  left: 20vw;
-  }
-#botonSiguiente{
-position: absolute;
-  height: 5vh;
-  width: 15vw;
 
-  bottom: 2.5vh;
-  right: 4.5vw;
-}
-#cabeceroSinTi{
-  position: absolute;
-  background-image: url('elementos/materiales/cabecera_sin_ti.png');
-  background-size: 100% 100%; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  max-width: 100%; /* Puedes ajustar este valor según tus necesidades */
-  max-height: 80vh; /* Puedes ajustar este valor según tus necesidades */
-  margin: auto; /* Centra el div horizontalmente */
-  width: 100vw; /* Permite ajustar automáticamente el ancho */
-  height: 20vh; /* Permite ajustar automáticamente la altura */
-  top: 0px;
-  padding: 20px; /* Agrega espacio alrededor del contenido del div */
-  box-sizing: border-box; /* Incluye padding y border en el ancho total */
- 
-}
-.situacion{
-  width: calc(70% - 10px); /* Ancho del contenedor hijo (restar 10px para la separación) */
-  height: 5vh; /* Altura del contenedor hijo */
-  background-size: contain; /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
-  background-repeat: no-repeat; /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  margin-bottom: 5px; /* Separación entre los contenedores hijos */
- 
-  transition: transform 0.2s, background-image 0.2s;
-        
-}
 /* Escalado de boton o mouse over*/
 .botones:hover {
-  transform: scale(1.05); /* Hace que el div sea un poco más grande al pasar el ratón por encima */
- 
+  transform: scale(1.05);  /* Hace que el div sea un poco más grande al pasar el ratón por encima */
+
+}
+
+/*-----------Menu Inicio------------*/
+#MenuInicio {
+  position: absolute;
+  right: 40%;
+  width: 25vw;  /* Permite ajustar automáticamente el ancho */
+  height: auto;  /* Permite ajustar automáticamente la altura */
+  top: 25vh;
+  margin: auto;
+  padding: 20px;  /* Agrega espacio alrededor del contenido del div */
+  background-color: rgb(169, 169, 255);
+  box-sizing: border-box;  /* Incluye padding y border en el ancho total */
+
+
+}
+
+#unDia {
+  background-image: url('elementos/materiales/un_dia_en_el_centro.png');
+  background-size: 100%, 100%;  /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat;  /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-position: center;  /* Centra la imagen dentro del contenedor */
+}
+
+#familia {
+  background-image: url('elementos/materiales/Trabajo_con_la_familia.png');
+  background-size: 100%, 100%;  /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat;  /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-position: center;  /* Centra la imagen dentro del contenedor */
+}
+
+/*---------Menu Escenas----------*/
+#imagenEscena {
+  position: absolute;
+  background-size: contain;  /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat;  /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-position: center;  /* Centra la imagen dentro del contenedor */
+  max-width: 80%;  /* Puedes ajustar este valor según tus necesidades */
+  max-height: 80vh;  /* Puedes ajustar este valor según tus necesidades */
+  margin: auto;  /* Centra el div horizontalmente */
+  width: 74vw;  /* Permite ajustar automáticamente el ancho */
+  height: 67vh;  /* Permite ajustar automáticamente la altura */
+  bottom: 30vh;
+  top: 38vh;
+  padding: 20px;  /* Agrega espacio alrededor del contenido del div */
+  box-sizing: border-box;  /* Incluye padding y border en el ancho total */
+  background-color: rgb(169, 169, 255);
+}
+
+#botonVolver {
+  position: absolute;
+  background-image: url('elementos/materiales/botonVolver.png');
+  background-size: contain;  /* Ajusta la imagen para cubrir todo el contenedor sin distorsionar */
+  background-repeat: no-repeat;  /* Evita que se repita la imagen en caso de que el gif sea más pequeño que el contenedor */
+  background-position: center;  /* Centra la imagen dentro del contenedor */
+  height: 5vh;
+  width: 15vw;
+  bottom: 2.5vh;
+  right: 5vw;
 }
