@@ -64,7 +64,7 @@
         
 
         volverMenu.addEventListener('click', function() {
-            window.location.href = 'index.php';
+            window.top.location.href = 'AQUI EL LINK DE LA PAGINA PRINCIPAL';
         });
     </script>
 </body>
